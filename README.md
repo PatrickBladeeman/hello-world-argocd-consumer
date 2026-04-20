@@ -35,3 +35,6 @@ Quick start
    - commit and push
    - wait for Argo CD to sync
    - `kubectl get pods -n hs1`
+
+This consumer flow uses the default Argo CD project and does not require Argo CD
+impersonation.

@@ -4,7 +4,7 @@ metadata:
   name: kubeplus-hello-world-consumer
   namespace: argocd
 spec:
-  project: kubeplus-hello-world-consumer
+  project: default
   source:
     repoURL: https://github.com/PatrickBladeeman/hello-world-argocd-consumer
     targetRevision: main
